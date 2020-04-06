@@ -26,7 +26,7 @@ This is a repo for recording DNS knowledge
 ### 4. Root Zone 文件
 ```Root Zone```文件记录了全球的顶级域的DNS信息，通过```Http```协议可以在 [Internic](http://www.internic.net/domain/root.zone) 下载```Root Zone```文件，同时也可以通过```FTP```下载，其格式如下（部分为例） 
 
-TLD  |  数字 |   Internet|  Record Type | Record Value
+TLD  |  TTL |   Internet|  Record Type | Record Value
 ---|---|---|---|---
 dnsc.ad.	|	172800 |  IN  |   A        |  194.158.74.10
 dnsc.ad.   |  172800 |   IN  |  AAAA |  2a02:8060:32fa:0:0:0:0:b
